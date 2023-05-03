@@ -1,13 +1,13 @@
 body {
-    background-color: #458201;
+    background: linear-gradient(to bottom, black, #458201, black);
     border-color: white;
     text-align: center;
 }
 #header {
     top: 0;
     width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
-    background-color: #458201;
     font-family: 'Lobster', cursive;
     font-size: 200%;
     color: #458201;
@@ -41,13 +41,12 @@ td {
 #content {
     margin-bottom: 3%;
     color: white;
-    background-color: black;
     width: 80%;
-    margin: auto
+    margin: auto;
 }
 #vision, #tokenomics, #links, #team, #rewards {
     padding-top: 10%;
-    background-color: black
+    border-bottom-style: solid
 }
 #container{
     width: 80%;
@@ -64,9 +63,9 @@ td {
     bottom: 0;
     width:100%;
     position: fixed;
-    background-color: #458201;
     padding: 1%;
     color: white;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 a {
     text-decoration: none;
