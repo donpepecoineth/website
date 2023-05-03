@@ -29,11 +29,18 @@ th {
     width: 18%
 }
 #content {
-    margin-top: 5%;
+    margin-top: 16%;
     margin-bottom: 3%;
 }
 #container {
-    padding: 10%
+    padding: 5%;
+    padding-bottom: 9%;
+    display: inline-flex;
+    align-items: center;
+}
+#texthalf, #mediahalf {
+    width: 80%;
+    vertical-align: middle;
 }
 #footer {
     width: 99%;
