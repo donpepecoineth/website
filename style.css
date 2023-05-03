@@ -5,8 +5,11 @@ body {
     text-align: center;
 }
 #header {
-    width: 98%;
+    width: 99%;
     top: 0;
+    position: fixed;
+    background-color: black;
+    border-style: solid
 }
 #logo {
     width: 25%;
@@ -19,21 +22,24 @@ body {
     vertical-align: middle;
 }
 table {
-    width: 100%;
+    width: 98%;
     table-layout: auto;
 }
 th {
-    width: 15%
+    width: 18%
 }
 #content {
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 #container {
-    border-style: solid;
     padding: 10%
 }
 #footer {
-    width: 98%;
+    width: 99%;
     bottom: 0;
+    position: fixed;
+    background-color: black;
+    padding: 1%;
+    border-style: solid
 }
