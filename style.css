@@ -36,7 +36,7 @@ tr {
 }
 td {
     width: 15%;
-    font-size: 20px;
+    font-size: 22px;
 }
 #content {
     margin-bottom: 3%;
@@ -56,8 +56,9 @@ td {
     align-items: center;
 }
 #texthalf, #mediahalf {
-    width: 80%;
+    width: 65%;
     vertical-align: middle;
+    margin: 3%
 }
 #footer {
     bottom: 0;
