@@ -23,13 +23,12 @@ table {
     table-layout: auto;
 }
 th {
-    margin: auto;
+    width: 18%
 }
 #content {
     margin-top: 1%;
     margin-bottom: 1%;
 }
-
 #container {
     border-style: solid;
     padding: 10%
