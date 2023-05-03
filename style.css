@@ -6,8 +6,6 @@ body {
 }
 #header {
     width: 98%;
-    border-style: solid;
-    position: absolute;
     top: 0;
 }
 #logo {
@@ -27,9 +25,16 @@ table {
 th {
     margin: auto;
 }
+#content {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#container {
+    border-style: solid;
+    padding: 10%
+}
 #footer {
     width: 98%;
-    border-style: solid;
-    position: absolute;
     bottom: 0;
 }
