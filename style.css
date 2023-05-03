@@ -31,8 +31,11 @@ table {
     width: 98%;
     table-layout: auto;
 }
+tr {
+    width: 80%;
+}
 td {
-    width: 20%;
+    width: 15%;
     font-size: 20px;
 }
 #content {
