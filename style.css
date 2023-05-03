@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: white;
+    color: #458201;
     border-color: white;
     text-align: center;
 }
@@ -9,9 +9,13 @@ body {
     top: 0;
     position: fixed;
     background-color: black;
-    border-style: solid;
     font-family: 'Lobster', cursive;
-    font-size: 40px;
+    font-size: 30px;
+    color: white
+}
+h1 {
+    font-family: 'Lobster', cursive;
+
 }
 #logo {
     width: 25%;
@@ -52,9 +56,8 @@ td{
     position: fixed;
     background-color: black;
     padding: 1%;
-    border-style: solid
 }
 a {
     text-decoration: none;
-    color: white;
+    color: #458201;
 }
