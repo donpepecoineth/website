@@ -43,3 +43,7 @@ th {
     padding: 1%;
     border-style: solid
 }
+a {
+    text-decoration: none;
+    color: white;
+}
