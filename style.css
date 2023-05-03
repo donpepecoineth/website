@@ -9,7 +9,9 @@ body {
     top: 0;
     position: fixed;
     background-color: black;
-    border-style: solid
+    border-style: solid;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
 }
 #logo {
     width: 25%;
@@ -25,16 +27,18 @@ table {
     width: 98%;
     table-layout: auto;
 }
-th {
+td{
     width: 18%
 }
 #content {
-    margin-top: 8%;
     margin-bottom: 3%;
 }
-#container, #tokenomics, #links, #team, #rewards {
+#vision, #tokenomics, #links, #team, #rewards {
+    padding-top: 10%;
+}
+#container{
     width: 80%;
-    padding-bottom: 1%;
+    padding-bottom: 6%;
     display: inline-flex;
     align-items: center;
 }
