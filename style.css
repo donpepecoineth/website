@@ -29,12 +29,12 @@ th {
     width: 18%
 }
 #content {
-    margin-top: 16%;
+    margin-top: 8%;
     margin-bottom: 3%;
 }
-#container {
-    padding: 5%;
-    padding-bottom: 9%;
+#container, #tokenomics, #links, #team, #rewards {
+    width: 80%;
+    padding-bottom: 1%;
     display: inline-flex;
     align-items: center;
 }
