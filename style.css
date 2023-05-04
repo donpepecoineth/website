@@ -1,21 +1,13 @@
 body {
     background: linear-gradient(to bottom, black, #458201, black);
-    border-color: white;
     text-align: center;
 }
 #header {
     top: 0;
-    width:100%;
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     font-family: 'Lobster', cursive;
     font-size: 200%;
-    color: #458201;
-}
-h1 {
-    font-family: 'Lobster', cursive;
-    color: white
-
 }
 #logo {
     width: 25%;
@@ -27,16 +19,13 @@ h1 {
     display: inline-flex;
     vertical-align: middle;
 }
+h1 {
+    font-family: 'Lobster', cursive;
+    color: white
+}
 table {
     width: 98%;
     table-layout: auto;
-}
-tr {
-    width: 80%;
-}
-td {
-    width: 15%;
-    font-size: 125%;
 }
 #content {
     margin-bottom: 3%;
@@ -54,11 +43,6 @@ td {
     display: inline-flex;
     align-items: center;
 }
-#texthalf, #mediahalf {
-    width: 65%;
-    vertical-align: middle;
-    margin: 3%
-}
 #footer {
     bottom: 0;
     width:100%;
@@ -67,7 +51,14 @@ td {
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
 }
-a {
+a{
     text-decoration: none;
     color: white
+}
+#bordered {
+    border-style: solid;
+    font-size: 120%;
+}
+#logotable {
+    width: 15%;
 }
