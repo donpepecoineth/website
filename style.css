@@ -1,14 +1,13 @@
 body {
-    background: linear-gradient(to bottom, black, #458201, black);
     text-align: center;
     font-family: 'Lobster', cursive;
-    color: white
+    color: white;
+    background: linear-gradient(to right, black, #458201, black);
 }
 #header {
     top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
-    font-family: 'Lobster', cursive;
     font-size: 200%;
     width: 100%
 }
@@ -22,19 +21,9 @@ body {
     display: inline-flex;
     vertical-align: middle;
 }
-table {
-    width: 98%;
-    table-layout: auto;
-    font-size: 110%;
-}
 #content {
-    color: white;
-    width: 80%;
+    width: 75%;
     margin: auto;
-}
-#title {
-    padding-top: 10%;
-    border-bottom-style: solid
 }
 #footer {
     bottom: 0;
@@ -42,7 +31,18 @@ table {
     position: fixed;
     padding: 1%;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#title {
+    padding-top: 7%;
+    border-bottom-style: solid
+}
+table {
+    width: 98%;
+    table-layout: auto;
+}
+#logotable {
+    width: 15%;
 }
 a{
     text-decoration: none;
@@ -51,9 +51,6 @@ a{
 #bordered {
     border-style: solid;
     font-size: 120%;
-}
-#logotable {
-    width: 15%;
 }
 .expanded {
     position: fixed;
