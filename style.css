@@ -84,7 +84,7 @@ a{
 .fade-in {
     opacity: 0;
     animation-name: fadeIn;
-    animation-delay: 3s;
+    animation-delay: 2s;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
@@ -92,7 +92,7 @@ a{
 .quick-in{
     opacity: 0;
     animation-name: fadeIn;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
@@ -108,7 +108,7 @@ a{
 
 .shrink-image {
     width: 50%;
-    animation: shrink 3s ease-out forwards;
+    animation: shrink 2s ease-out forwards;
   }
   
   @keyframes shrink {
