@@ -119,4 +119,7 @@ a{
       transform: scale(1);
     }
   }
-  
+#wide {
+    width : 80%;
+    margin: auto
+}
