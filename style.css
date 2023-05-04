@@ -8,6 +8,7 @@ body {
     position: fixed;
     font-family: 'Lobster', cursive;
     font-size: 200%;
+    width: 100%
 }
 #logo {
     width: 25%;
