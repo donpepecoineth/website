@@ -123,3 +123,7 @@ a{
     width : 80%;
     margin: auto
 }
+#buybutton {
+    background: linear-gradient(to top, #458201, black,#458201);
+    border-radius: 10px;
+}
