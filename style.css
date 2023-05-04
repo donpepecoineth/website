@@ -25,6 +25,7 @@ body {
 table {
     width: 98%;
     table-layout: auto;
+    font-size: 110%;
 }
 #content {
     color: white;
@@ -71,5 +72,6 @@ a{
     display: inline-flex
 }
 #rewards {
-    padding-bottom: 10%
+    padding-bottom: 10%;
+    font-size: 
 }
