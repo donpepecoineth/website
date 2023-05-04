@@ -6,7 +6,7 @@ body {
 }
 #header {
     top: 0;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     font-size: 200%;
     width: 100%
@@ -31,7 +31,7 @@ body {
     position: fixed;
     padding: 1%;
     color: white;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 #title {
     padding-top: 7%;
@@ -70,5 +70,44 @@ a{
 }
 #rewards {
     padding-bottom: 10%;
-    font-size: 
+
 }
+.fade-in {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+.quick-in{
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.shrink-image {
+    width: 50%;
+    animation: shrink 3s ease-out forwards;
+  }
+  
+  @keyframes shrink {
+    from {
+      transform: scale(2.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  

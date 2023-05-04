@@ -8,12 +8,12 @@
     <script src="index.js"></script>
   </head>
   <body>
-    <div id="header">
+    <div id="header" class="fade-in">
         <div id="logo"><a href=""><img src="logo.png" width=100% alt=""></a></div>
         <div id="navbar">
             <table>
                 <tr>
-                    <th id="navitem"><a href="">vision</a></th>
+                    <th id="navitem"><a href="#vision">vision</a></th>
                     <th id="navitem"><a href="#token">token</a></th>
                     <th id="navitem"><a href="#links">links</a></th>
                     <th id="navitem"><a href="#team">team</a></th>
@@ -25,8 +25,11 @@
     </div>
     <div id="content">
         <div id="vision">
-            <div id="title"><h1><a href="https://www.youtube.com/watch?v=eTnVLioN0sY">vision</a></h1></div>
-            <img id="picture" src = "sign.jpg" width=40% onclick="expandImage(this)">
+            <div id="title" class="quick-in"><h1><a href="https://www.youtube.com/watch?v=eTnVLioN0sY">vision</a></h1></div>
+            <div class="image-container">
+              <img id="picture" class="shrink-image"src = "sign.jpg" width=40% onclick="expandImage(this)"><br/>
+              <audio class="quick-in" id="myAudio" controls src="shadilay.mp3"></audio>
+            </div>
         </div>
         <div id="token">
             <div id="title"><h1><a href="https://www.youtube.com/watch?v=_HYMqlzSPZw">token</a></h1></div>
@@ -48,7 +51,7 @@
             </div>
             <br/><a href="https://etherscan.io/token/0xb9810b4cd134ebeb9dee2ec550699fff20236c27?a=0xea90eef2e4d3c642f42cba8acd1cc6f1583a82d0">0.3% fee on every transfer goes to team wallet for building and maintenance</a>
         </div>
-        <div id="links">
+        <div id="links" class="fade-in">
             <div id="title"><h1>links</h1></div>
             <table>
                 <tr>
@@ -61,7 +64,7 @@
                 </tr>
             </table>
         </div>
-        <div id="team">
+        <div id="team" class="fade-in">
             <div id="title"><h1>team</h1></div>
             <table>
                 <tr>
@@ -73,7 +76,7 @@
                 </tr>
             </table>
         </div>
-        <div id="rewards">
+        <div id="rewards" class="fade-in">
             <div id="title"><h1><a href="https://www.youtube.com/watch?v=9tXRRQVl9zs">rewards</a></h1></div>
             <a href="https://zealy.io/c/donpepe">
             <h3>
@@ -211,7 +214,7 @@
             </a>              
         </div>
     </div>
-    <div id="footer">
+    <div id="footer" class="fade-in">
         <table>
             <tr>
                 <td>Contract: <a href="https://etherscan.io/token/0xb9810b4cd134ebeb9dee2ec550699fff20236c27">0xb9810b4cd134ebeb9dee2ec550699fff20236c27</a></td>
