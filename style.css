@@ -2,12 +2,10 @@ body {
     color: white;
     text-align: center;
     background: linear-gradient(to right, black, #458201, black);
+    font-family: 'Montserrat', cursive;
 }
 h1 {
     font-family: 'Lobster', cursive;
-}
-h3, h4 {
-    font-family: 'Montserrat', cursive;
 }
 #header {
     top: 0;
@@ -75,8 +73,22 @@ a{
 #picture {
     cursor: pointer;
 }
-#sidebyside {
-    display: inline-flex
+#sidebyside1 {
+    display: inline-flex;
+    padding: 0;
+    width: 20%;
+    vertical-align: middle;
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+#sidebyside2 {
+    display: inline-flex;
+    width: 50%;
+    vertical-align: middle;
 }
 #rewards {
     padding-bottom: 10%;
@@ -108,7 +120,6 @@ a{
 }
 
 .shrink-image {
-    width: 50%;
     animation: shrink 2s ease-out forwards;
   }
   
@@ -133,5 +144,6 @@ a{
     border-radius: 10px;
     border-style: solid;
     margin:auto;
-    border-color: white
+    border-color: white;
+    padding: 2%
 }
