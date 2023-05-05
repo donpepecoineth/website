@@ -11,12 +11,13 @@ h3, h4 {
 }
 #header {
     top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 1);
     position: fixed;
     font-size: 200%;
     width: 100%;
     z-index: 3;
     font-family: 'Lobster', cursive;
+    border-bottom-style: solid
 }
 #logo {
     width: 25%;
@@ -39,12 +40,12 @@ h3, h4 {
     position: fixed;
     padding: 1%;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 1);
     z-index: 3;
+    border-top-style:solid
 }
 #title {
     padding-top: 7%;
-    border-bottom-style: solid
 }
 table {
     width: 98%;
@@ -127,6 +128,10 @@ a{
     background: linear-gradient(to top, #458201, black,#458201);
     border-radius: 10px;
 }
-#rewardstable {
-    background-color: rgba(0, 0, 0, 0.9);
+#backplate {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    border-style: solid;
+    margin:auto;
+    border-color: white
 }
