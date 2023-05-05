@@ -6,7 +6,7 @@ body {
 h1 {
     font-family: 'Lobster', cursive;
 }
-h3 {
+h3, h4 {
     font-family: 'Montserrat', cursive;
 }
 #header {
@@ -126,4 +126,7 @@ a{
 #buybutton {
     background: linear-gradient(to top, #458201, black,#458201);
     border-radius: 10px;
+}
+#rewardstable {
+    background-color: rgba(0, 0, 0, 0.9);
 }
